@@ -1,4 +1,4 @@
-package dev.jlipka.bankentityextractionapi.excelparser.api.model;
+package dev.jlipka.bankentityextractionapi.bank.api.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
