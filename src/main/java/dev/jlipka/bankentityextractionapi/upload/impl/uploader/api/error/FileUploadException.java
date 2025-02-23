@@ -1,4 +1,4 @@
-package dev.jlipka.bankentityextractionapi.excelparser.api.error;
+package dev.jlipka.bankentityextractionapi.upload.impl.uploader.api.error;
 
 public class FileUploadException extends RuntimeException {
     public FileUploadException(String message) {
