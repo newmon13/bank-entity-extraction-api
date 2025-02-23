@@ -1,7 +1,6 @@
 package dev.jlipka.bankentityextractionapi.upload.impl.parser.impl;
 
 import dev.jlipka.bankentityextractionapi.bank.api.model.Bank;
-import dev.jlipka.bankentityextractionapi.shared.validator.BankValidator;
 import dev.jlipka.bankentityextractionapi.upload.impl.parser.api.Parsable;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -49,8 +48,7 @@ public class ExcelBankParser implements Parsable<Row, Bank> {
     }
 
     private enum BankColumn {
-        COUNTRY_CODE(0), SWIFT_CODE(1), CODE_TYPE(2), NAME(3), ADDRESS(4), TOWN_NAME(5),
-        COUNTRY_NAME(6), TIME_ZONE(7);
+        COUNTRY_CODE(0), SWIFT_CODE(1), CODE_TYPE(2), NAME(3), ADDRESS(4), TOWN_NAME(5), COUNTRY_NAME(6), TIME_ZONE(7);
 
         private final int index;
 
